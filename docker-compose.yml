@@ -1,0 +1,12 @@
+version: '3.7'
+
+services:
+  postgres:
+    container_name: postgres
+    image: postgres:17
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_DB: 99-tech-assessment
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 123456

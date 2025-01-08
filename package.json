@@ -1,0 +1,50 @@
+{
+  "name": "99tech-asessment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/app.js",
+    "start:dev": "ts-node src/app.ts",
+    "test": "jest --runInBand",
+    "test:cov": "jest --coverage --runInBand"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toandle/99tech-assessment.git"
+  },
+  "author": "Toan Le",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/toandle/99tech-assessment/issues"
+  },
+  "homepage": "https://github.com/toandle/99tech-assessment#readme",
+  "dependencies": {
+    "body-parser": "1.20.3",
+    "class-transformer": "0.5.1",
+    "class-validator": "0.14.1",
+    "cors": "2.8.5",
+    "dotenv": "16.4.7",
+    "express": "4.21.2",
+    "helmet": "8.0.0",
+    "http-status-codes": "2.3.0",
+    "pg": "8.13.1",
+    "pg-hstore": "2.3.4",
+    "sequelize": "6.37.5",
+    "uuid": "11.0.4"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "9.3.0",
+    "@types/express": "5.0.0",
+    "@types/jest": "29.5.14",
+    "@types/node": "22.10.5",
+    "@types/pg": "8.11.10",
+    "jest": "29.7.0",
+    "sequelize-mock": "0.10.2",
+    "ts-jest": "29.2.5",
+    "ts-node": "10.9.2",
+    "tsconfig-paths": "4.2.0",
+    "typescript": "5.7.2"
+  }
+}
