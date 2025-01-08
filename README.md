@@ -26,7 +26,7 @@ Develop a backend server with ExpressJS. You are required to build a set of CRUD
 - Steps
     + Stay in the root folder, open terminal and run command `docker-compose up -d` to startup the postgres database
     + Create `.env` file and copy content in `.env-sample.txt` to `.env` file
-    + Start the server by running the following command `npm run build && npm start`, the server will be listen on port 3000 by default
+    + Start the server by running the following command `npm install && npm run build && npm start`, the server will be listen on port 3000 by default
     + The API will be expose under `http://{host}:{port}/v1/products`. For local environment, the url should be `http://localhost:3000/v1/products`
 
 ## API Specs
