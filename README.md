@@ -35,6 +35,8 @@ Develop a backend server with ExpressJS. You are required to build a set of CRUD
   - Endpoint: /v1/products
   - Query parameter:
     + name: string (optional)
+    + page: integer (optional)
+    + pageSize: integer (optional)
   - Response:
     - Success: { success: true, data: {...} }
     - Failed: { success: false, message: "", errorCode: "" }
